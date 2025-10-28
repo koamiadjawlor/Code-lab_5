@@ -1,3 +1,8 @@
+#Ce code a été rédigé avec l'aide de l'IA Deepseeke. Il est destiné à être exécuté sur une carte MicroPython équipéed'un module RTC DS3231 et d'un bouton poussoir. 
+#Le programme permet de mesurer la perception du temps en demandant à l'utilisateur de compter 15 secondes entre deux appuis sur le bouton. 
+#Les temps mesurés sont sauvegardés dans un fichier texte pour une analyse ultérieure.
+
+
 from machine import I2C, Pin
 import utime
 
