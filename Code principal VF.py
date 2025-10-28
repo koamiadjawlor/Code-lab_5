@@ -100,7 +100,7 @@ except KeyboardInterrupt:
                     fichier.write(str(temps) + "\n")
             
             print(f"Journal sauvegarde dans la memoire flash")
-            print(f"{len(journal)} essai(s) enregistré(s) dans 'journal.txt'")
+            print(f"{len(journal)} essai(s) enregistre(s) dans 'journal.txt'")
             print(f"Temps enregistres: {journal}")
             
         except Exception as e:
